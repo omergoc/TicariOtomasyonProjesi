@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce80545966cd4797ab3c65a640d92666" Name="Diagram1">
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLCARI" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLCARIHAREKET" Width="1.5" PointX="5.125" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLDEPARTMAN" Width="1.5" PointX="0.875" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLFIRMA" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLFIRMAHAREKET" Width="1.5" PointX="7.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLGIDERLER" Width="1.5" PointX="9.625" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLİLCELER" Width="1.5" PointX="4.875" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLILLER" Width="1.5" PointX="9.375" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLKASA" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLKATEGORI" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLNOTLAR" Width="1.5" PointX="9.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLPERSONEL" Width="1.5" PointX="2.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTicariOtomasyonModel.TBLURUN" Width="1.5" PointX="7.375" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLCARIHAREKET_TBLCARI1" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLCARIHAREKET_TBLPERSONEL1" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLPERSONEL_TBLDEPARTMAN" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLFIRMAHAREKET_TBLFIRMA" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLFIRMAHAREKET_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLFIRMAHAREKET_TBLURUN" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLURUN_TBLKATEGORI1" ManuallyRouted="false" />
+        <AssociationConnector Association="DbTicariOtomasyonModel.FK_TBLCARIHAREKET_TBLURUN" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
